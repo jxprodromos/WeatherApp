@@ -57,7 +57,7 @@ public sealed class OpenWeatherClient : IWeatherProviderClient
             {
                 logger.LogWarning("OpenWeather returned an unreadable response body for coordinates {Latitude}, {Longitude}.", latitude, longitude);
                 return Error.Failure(
-                    code: "Weather.ProviderError",
+                    code: "WeatherProvider.NullResponse",
                     description: "Provider returned an unreadable response.");
             }
 
