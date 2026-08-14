@@ -51,15 +51,17 @@ public sealed class OpenWeatherClient : IWeatherProviderClient
                     description: "The weather provider request failed.");
             }
 
-            WeatherDto? result = await response.Content.ReadFromJsonAsync<WeatherDto>(cancellationToken: cancellationToken);
+            OpenWeatherResponse? rawResponse = await response.Content.ReadFromJsonAsync<OpenWeatherResponse>(cancellationToken: cancellationToken);
 
-            if (result is null)
+            if (rawResponse is null)
             {
-                logger.LogWarning("OpenWeather returned an empty response body for coordinates {Latitude}, {Longitude}.", latitude, longitude);
-                return Error.Unexpected(
-                    code: "WeatherProvider.EmptyResponse",
-                    description: "The weather provider returned an empty response.");
+                logger.LogWarning("OpenWeather returned an unreadable response body for coordinates {Latitude}, {Longitude}.", latitude, longitude);
+                return Error.Failure(
+                    code: "Weather.ProviderError",
+                    description: "Provider returned an unreadable response.");
             }
+
+            WeatherDto result = OpenWeatherMapper.ToDto(rawResponse);
 
             return result;
         }
