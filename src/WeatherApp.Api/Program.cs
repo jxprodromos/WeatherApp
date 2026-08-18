@@ -1,5 +1,6 @@
 using Microsoft.OpenApi;
 using WeatherApp.Api.Endpoints;
+using WeatherApp.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

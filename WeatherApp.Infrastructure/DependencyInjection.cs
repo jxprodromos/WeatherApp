@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using WeatherApp.Application.Services;
 using WeatherApp.Infrastructure.Weather;
 
-namespace Microsoft.Extensions.DependencyInjection;
+namespace WeatherApp.Infrastructure;
 
 public static class InfrastructureDependencyInjection
 {
@@ -26,7 +26,8 @@ public static class InfrastructureDependencyInjection
             client.BaseAddress = new Uri(options.Url, UriKind.Absolute);
             client.Timeout = TimeSpan.FromSeconds(10);
         })
-        .AddHttpMessageHandler<OpenWeatherApiKeyHandler>();
+        .AddHttpMessageHandler<OpenWeatherApiKeyHandler>()
+        .AddStandardResilienceHandler();
 
         return services;
     }

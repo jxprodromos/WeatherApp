@@ -2,6 +2,7 @@ using System.Net;
 using System.Net.Http.Json;
 using ErrorOr;
 using Microsoft.Extensions.Logging;
+using Polly.CircuitBreaker;
 using WeatherApp.Application.Models;
 using WeatherApp.Application.Services;
 
@@ -68,6 +69,13 @@ public sealed class OpenWeatherClient : IWeatherProviderClient
         catch (OperationCanceledException) when (cancellationToken.IsCancellationRequested)
         {
             throw;
+        }
+        catch (BrokenCircuitException exception)
+        {
+            logger.LogWarning(exception, "Circuit breaker is open for OpenWeather API. Service temporarily unavailable for coordinates {Latitude}, {Longitude}.", latitude, longitude);
+            return Error.Failure(
+                code: "WeatherProvider.CircuitOpen",
+                description: "OpenWeather API circuit breaker is open. Service is temporarily unavailable.");
         }
         catch (HttpRequestException exception)
         {
