@@ -21,19 +21,18 @@ public static class WeatherEndpoints
             .ProducesValidationProblem()
             .Produces(StatusCodes.Status404NotFound)
             .Produces(StatusCodes.Status502BadGateway)
-            .Produces(StatusCodes.Status500InternalServerError)
-            .WithOpenApi();
+            .Produces(StatusCodes.Status500InternalServerError);
 
         return group;
     }
 
     private static async Task<Results<Ok<WeatherDto>, ValidationProblem, ProblemHttpResult>> GetCurrentWeather(
-        [FromQuery] double lat,
-        [FromQuery] double lon,
+        [FromQuery] double latitude,
+        [FromQuery] double longitude,
         [FromServices] IWeatherService weatherService,
         CancellationToken cancellationToken)
     {
-        ErrorOr<WeatherDto> result = await weatherService.GetCurrentWeatherAsync(lat, lon, cancellationToken);
+        ErrorOr<WeatherDto> result = await weatherService.GetCurrentWeatherAsync(latitude, longitude, cancellationToken);
 
         return result.Match<Results<Ok<WeatherDto>, ValidationProblem, ProblemHttpResult>>(
             weather => TypedResults.Ok(weather),
