@@ -1,5 +1,6 @@
 using Microsoft.OpenApi;
 using WeatherApp.Api.Endpoints;
+using WeatherApp.Api.Infrastructure;
 using WeatherApp.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddProblemDetails();
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddSingleton<HangfireDashboardAuthorizationFilter>();
+builder.Services.AddHangfireInfrastructure(builder.Configuration);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -35,5 +38,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapWeatherEndpoints();
+
+app.UseHangfireInfrastructure();
 
 app.Run();

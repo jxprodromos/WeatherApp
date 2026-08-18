@@ -1,0 +1,40 @@
+<Project>
+  <!-- Build properties specific to test projects -->
+  <!-- This file is auto-discovered and applied to all projects under the Tests/ directory -->
+
+  <PropertyGroup>
+    <!-- Target Framework: .NET 10 -->
+    <TargetFramework>net10.0</TargetFramework>
+
+    <!-- C# Language Version: 14.0 (latest for .NET 10) -->
+    <LangVersion>14.0</LangVersion>
+
+    <!-- Nullable Reference Types: Enable by default -->
+    <Nullable>enable</Nullable>
+
+    <!-- Implicit Global Usings: Enable by default -->
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Deterministic builds for reproducibility -->
+    <Deterministic>true</Deterministic>
+
+    <!-- Mark as test project (enables test-specific behavior in tooling) -->
+    <IsTestProject>true</IsTestProject>
+
+    <!-- Generate test adapter discovery metadata -->
+    <GenerateTestAdapter>true</GenerateTestAdapter>
+
+    <!-- Allow test projects to use internal APIs from other projects in the solution -->
+    <InternalsVisibleTo>true</InternalsVisibleTo>
+  </PropertyGroup>
+
+  <!-- Test project metadata -->
+  <PropertyGroup>
+    <Authors>WeatherApp Team</Authors>
+    <Company>WeatherApp</Company>
+    <Product>WeatherApp Tests</Product>
+    <RepositoryUrl>https://github.com/jxprodromos/WeatherApp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>

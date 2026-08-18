@@ -1,0 +1,50 @@
+<Project>
+  <!-- Central NuGet package version management for the entire solution -->
+  <!-- Reference: https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management -->
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <!-- .NET / Microsoft.Extensions packages -->
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Http" Version="10.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="10.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Options.DataAnnotations" Version="10.0.10" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+  </ItemGroup>
+
+  <!-- Swagger / OpenAPI -->
+  <ItemGroup>
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <!-- Background Job Scheduler -->
+  <ItemGroup>
+    <PackageVersion Include="Hangfire" Version="1.8.14" />
+    <PackageVersion Include="Hangfire.SqlServer" Version="1.8.14" />
+  </ItemGroup>
+
+  <!-- Business Logic / Error Handling -->
+  <ItemGroup>
+    <PackageVersion Include="ErrorOr" Version="2.1.0" />
+  </ItemGroup>
+
+  <!-- Testing: Unit Test Framework -->
+  <ItemGroup>
+    <PackageVersion Include="xunit" Version="2.9.0" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.9.0" />
+  </ItemGroup>
+
+  <!-- Testing: Mocking & Assertions -->
+  <ItemGroup>
+    <PackageVersion Include="FakeItEasy" Version="9.0.0" />
+    <PackageVersion Include="Shouldly" Version="4.2.1" />
+  </ItemGroup>
+
+</Project>
