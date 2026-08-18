@@ -1,8 +1,8 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/WeatherApp.Api/WeatherApp.Api.csproj" Id="e1996c6a-0591-4f7e-9542-85d7bdb757f2" />
-    <Project Path="WeatherApp.Application/WeatherApp.Application.csproj" Id="0baa56e5-98af-48cf-8710-7febf9d0b58c" />
-    <Project Path="WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj" Id="67879cee-2165-466f-8030-38a4ba79c44f" />
+    <Project Path="src/WeatherApp.Application/WeatherApp.Application.csproj" Id="0baa56e5-98af-48cf-8710-7febf9d0b58c" />
+    <Project Path="src/WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj" Id="67879cee-2165-466f-8030-38a4ba79c44f" />
   </Folder>
     <Folder Name="/Tests/">
     <Project Path="Tests/WeatherApp.Application.Tests/WeatherApp.Application.Tests.csproj" Id="a2b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d" />
