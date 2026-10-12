@@ -1,0 +1,37 @@
+<Project>
+  <!-- Global build properties for PRODUCTION projects only -->
+  <!-- Test projects use Tests/Directory.Build.props instead -->
+
+  <PropertyGroup>
+    <!-- Target Framework: .NET 10 -->
+    <TargetFramework>net10.0</TargetFramework>
+
+    <!-- C# Language Version: 14.0 (latest for .NET 10) -->
+    <LangVersion>14.0</LangVersion>
+
+    <!-- Nullable Reference Types: Enable by default -->
+    <Nullable>enable</Nullable>
+
+    <!-- Implicit Global Usings: Enable by default -->
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Deterministic builds for reproducibility -->
+    <Deterministic>true</Deterministic>
+
+    <!-- Treat warnings as errors (optional, can be disabled per project if needed) -->
+    <!-- <TreatWarningsAsErrors>true</TreatWarningsAsErrors> -->
+
+    <!-- Documentation ("warnings are you're missing docs" - enable if you want) -->
+    <!-- <GenerateDocumentationFile>true</GenerateDocumentationFile> -->
+  </PropertyGroup>
+
+  <!-- Common metadata for production projects -->
+  <PropertyGroup>
+    <Authors>WeatherApp Team</Authors>
+    <Company>WeatherApp</Company>
+    <Product>WeatherApp</Product>
+    <RepositoryUrl>https://github.com/jxprodromos/WeatherApp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
