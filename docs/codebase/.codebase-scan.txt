@@ -1,0 +1,267 @@
+
+=== DIRECTORY TREE (max depth 3, source files only) ===
+.dockerignore
+.editorconfig
+.gitattributes
+.github
+.github\copilot-instructions.md
+.github\skills
+.github\skills\acquire-codebase-knowledge
+.github\skills\acquire-codebase-knowledge\assets
+.github\skills\acquire-codebase-knowledge\references
+.github\skills\acquire-codebase-knowledge\scripts
+.github\skills\acquire-codebase-knowledge\SKILL.md
+.github\skills\dotnet-best-practices
+.github\skills\dotnet-best-practices\SKILL.md
+.gitignore
+.vs
+.vs\CopilotSnapshots
+.vs\CopilotSnapshots\3979C319E552F744BD5BDB51C48FF569
+.vs\CopilotSnapshots\3979C319E552F744BD5BDB51C48FF569\1124F4C452E44F45B99D0740E32E3F42
+.vs\CopilotSnapshots\3979C319E552F744BD5BDB51C48FF569\2EA0DEAB9BF68E4A8A3BC6830F50253A
+.vs\CopilotSnapshots\3979C319E552F744BD5BDB51C48FF569\CFE1598FA244534D83FC436D62456F25
+.vs\CopilotSnapshots\3979C319E552F744BD5BDB51C48FF569\FDC24897FD10624C84D2B028F049B605
+.vs\CopilotSnapshots\3979C319E552F744BD5BDB51C48FF569\state.mpack
+.vs\CopilotSnapshots\80C586C4A5E7C148B324DBB61D2005FE
+.vs\CopilotSnapshots\80C586C4A5E7C148B324DBB61D2005FE\A250B4C59F5D174CBDC679C51EEFAD04
+.vs\CopilotSnapshots\80C586C4A5E7C148B324DBB61D2005FE\state.mpack
+.vs\CopilotSnapshots\8EF22C1A53AFB54A859219593BD17C59
+.vs\CopilotSnapshots\8EF22C1A53AFB54A859219593BD17C59\572898352541164D8250832D1DCF94DF
+.vs\CopilotSnapshots\8EF22C1A53AFB54A859219593BD17C59\E9A7EBF1D2562B47A4C53458ED7E9B31
+.vs\CopilotSnapshots\8EF22C1A53AFB54A859219593BD17C59\state.mpack
+.vs\CopilotSnapshots\B52DFD8B931A184691EDB19C061D92D0
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\116B2E7672359B46BDC2BD9E7AE313A3
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\139D025F66377A4CA2918953846E1287
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\164E4105086ED943A7FAAEE346F74F84
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\1F1CAF1BAAA8EE43BCA7297ADE75086A
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\29E5490B5D1781409FD56B3D910DE617
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\388289DB61854448855636308DD7032D
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\45CCCD324DBE434B9EAFED1B65C24322
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\46361A4757A1DB4E9D81B4B4A6DB4C1E
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\4ECFB78E67563B4A915B4501CE27B722
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\5598F86FF8A8874D9E24EBBB0D178822
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\5D71C1A77DF3A0439467536A423ED41B
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\714224224DE53244B9DAD56405BC8476
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\715D9FBBE58F254CB895A7C28A8222D6
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\7498AE0308701A48A99FCA0ECA878C7E
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\8D7F3FAF96245743A861E8E018AF5775
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\9EA975F2C865DF44B37EED3FDEB5EA94
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\AD7E3FF5F253084BA8F6A7670695FFE2
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\B921A14790A0FE48A7437624953F57EC
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\C267399485CD154E8B4C11B2494F6882
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\C47D344957DAFC47B96D80092E79E7B4
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\E82D07BE9EB48D4BB207D610B52B0535
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\EE43C989EF56C049B71F6E5F6A58621F
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\state.mpack
+.vs\ProjectEvaluation
+.vs\ProjectEvaluation\weatherapp.metadata.v10.bin
+.vs\ProjectEvaluation\weatherapp.projects.v10.bin
+.vs\ProjectEvaluation\weatherapp.strings.v10.bin
+.vs\WeatherApp
+.vs\WeatherApp\CopilotIndices
+.vs\WeatherApp\CopilotIndices\18.9.1306.19527
+.vs\WeatherApp\CopilotIndices\18.9.1311.36310
+.vs\WeatherApp.slnx
+.vs\WeatherApp.slnx\config
+.vs\WeatherApp.slnx\config\applicationhost.config
+.vs\WeatherApp.slnx\copilot-chat
+.vs\WeatherApp.slnx\copilot-chat\22aef03f
+.vs\WeatherApp.slnx\copilot-chat\47a20c85
+.vs\WeatherApp.slnx\DesignTimeBuild
+.vs\WeatherApp.slnx\DesignTimeBuild\.dtbcache.v2
+.vs\WeatherApp.slnx\FileContentIndex
+.vs\WeatherApp.slnx\FileContentIndex\4c135a1a-1cb9-4afc-8614-9db160dffb0c.vsidx
+.vs\WeatherApp.slnx\FileContentIndex\4ee742b5-4b12-4b7b-bbb8-12db43398165.vsidx
+.vs\WeatherApp.slnx\FileContentIndex\7ab640b3-3c85-44b3-991a-f78775e99291.vsidx
+.vs\WeatherApp.slnx\FileContentIndex\b9dfe995-7566-4842-a591-f226d99765e6.vsidx
+.vs\WeatherApp.slnx\FileContentIndex\d520ea77-8135-4288-a7f2-fbebf69e3398.vsidx
+.vs\WeatherApp.slnx\v17
+.vs\WeatherApp.slnx\v17\.suo
+.vs\WeatherApp.slnx\v17\DocumentLayout.json
+.vs\WeatherApp.slnx\v18
+.vs\WeatherApp.slnx\v18\.futdcache.v2
+.vs\WeatherApp.slnx\v18\.suo
+.vs\WeatherApp.slnx\v18\DocumentLayout.backup.json
+.vs\WeatherApp.slnx\v18\DocumentLayout.json
+.vs\WeatherApp.slnx\v18\HierarchyCache.v1.txt
+.vs\WeatherApp.slnx\v18\TestStore
+.vs\WeatherApp.slnx\VSGitHubCopilot
+.vs\WeatherApp.slnx\VSGitHubCopilot\ContextSpill
+clear.bat
+docs
+docs\codebase
+docs\codebase\.codebase-scan.txt
+docs\codebase\ARCHITECTURE.md
+docs\codebase\CONCERNS.md
+docs\codebase\CONVENTIONS.md
+docs\codebase\INTEGRATIONS.md
+docs\codebase\STACK.md
+docs\codebase\STRUCTURE.md
+docs\codebase\TESTING.md
+README.md
+src
+src\WeatherApp.Api
+src\WeatherApp.Api\appsettings.Development.json
+src\WeatherApp.Api\appsettings.json
+src\WeatherApp.Api\Endpoints
+src\WeatherApp.Api\Endpoints\WeatherEndpoints.cs
+src\WeatherApp.Api\Program.cs
+src\WeatherApp.Api\Properties
+src\WeatherApp.Api\Properties\launchSettings.json
+src\WeatherApp.Api\WeatherApp.Api.csproj
+src\WeatherApp.Api\WeatherApp.Api.csproj.user
+src\WeatherApp.Api\WeatherApp.Api.http
+src\WeatherApp.Application
+src\WeatherApp.Infrastructure
+Tests
+Tests\WeatherApp.Application.Tests
+Tests\WeatherApp.Application.Tests\Services
+Tests\WeatherApp.Application.Tests\Services\WeatherServiceTests.cs
+Tests\WeatherApp.Application.Tests\WeatherApp.Application.Tests.csproj
+Tests\WeatherApp.Infrastructure.Tests
+Tests\WeatherApp.Infrastructure.Tests\Weather
+Tests\WeatherApp.Infrastructure.Tests\Weather\OpenWeatherClientResilienceTests.cs
+Tests\WeatherApp.Infrastructure.Tests\Weather\OpenWeatherMapperTests.cs
+Tests\WeatherApp.Infrastructure.Tests\WeatherApp.Infrastructure.Tests.csproj
+WeatherApp.Application
+WeatherApp.Application\DependencyInjection.cs
+WeatherApp.Application\Models
+WeatherApp.Application\Models\MainWeatherInfo.cs
+WeatherApp.Application\Models\SystemDetails.cs
+WeatherApp.Application\Models\WeatherConditionInfo.cs
+WeatherApp.Application\Models\WeatherDto.cs
+WeatherApp.Application\Models\WindDetails.cs
+WeatherApp.Application\Services
+WeatherApp.Application\Services\IWeatherProviderClient.cs
+WeatherApp.Application\Services\IWeatherService.cs
+WeatherApp.Application\Services\WeatherService.cs
+WeatherApp.Application\WeatherApp.Application.csproj
+WeatherApp.Infrastructure
+WeatherApp.Infrastructure\DependencyInjection.cs
+WeatherApp.Infrastructure\Properties
+WeatherApp.Infrastructure\Properties\AssemblyInfo.cs
+WeatherApp.Infrastructure\Weather
+WeatherApp.Infrastructure\Weather\CircuitBreakerOpenException.cs
+WeatherApp.Infrastructure\Weather\OpenWeatherApiKeyHandler.cs
+WeatherApp.Infrastructure\Weather\OpenWeatherClient.cs
+WeatherApp.Infrastructure\Weather\OpenWeatherMapper.cs
+WeatherApp.Infrastructure\Weather\OpenWeatherOptions.cs
+WeatherApp.Infrastructure\Weather\OpenWeatherResponse.cs
+WeatherApp.Infrastructure\WeatherApp.Infrastructure.csproj
+WeatherApp.slnx
+
+=== STACK DETECTION (manifest files) ===
+
+--- WeatherApp.slnx ---
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WeatherApp.Api/WeatherApp.Api.csproj" Id="e1996c6a-0591-4f7e-9542-85d7bdb757f2" />
+    <Project Path="WeatherApp.Application/WeatherApp.Application.csproj" Id="0baa56e5-98af-48cf-8710-7febf9d0b58c" />
+    <Project Path="WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj" Id="67879cee-2165-466f-8030-38a4ba79c44f" />
+  </Folder>
+    <Folder Name="/Tests/">
+    <Project Path="Tests/WeatherApp.Application.Tests/WeatherApp.Application.Tests.csproj" Id="a2b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d" />
+    <Project Path="Tests/WeatherApp.Infrastructure.Tests/WeatherApp.Infrastructure.Tests.csproj" Id="f6e5d4c3-b2a1-9f8e-7d6c-5b4a3f2e1d0c" />
+  </Folder>
+</Solution>
+
+
+
+=== ENTRY POINTS ===
+No common entry points found. Check 'main' or 'scripts.start' in manifest files above.
+
+=== LINTING AND FORMATTING CONFIG ===
+Found: .editorconfig
+
+=== ENVIRONMENT VARIABLE TEMPLATES ===
+No .env.example or .env.template found. Identify required environment variables by searching the code and config for environment variable reads.
+
+=== TODO / FIXME / HACK (production code only, test dirs excluded) ===
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:28: TODO_LIMIT = 60
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:291: """Search for TODO/FIXME/HACK comments."""
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:291: """Search for TODO/FIXME/HACK comments."""
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:291: """Search for TODO/FIXME/HACK comments."""
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:293: patterns = ["TODO", "FIXME", "HACK"]
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:293: patterns = ["TODO", "FIXME", "HACK"]
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:293: patterns = ["TODO", "FIXME", "HACK"]
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:320: return todos[:TODO_LIMIT]
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:617: # TODOs
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:620: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", todos, output_file)
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:620: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", todos, output_file)
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:620: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", todos, output_file)
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:622: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", ["None found."], output_file)
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:622: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", ["None found."], output_file)
+.github\skills\acquire-codebase-knowledge\scripts\scan.py:622: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", ["None found."], output_file)
+
+=== GIT RECENT COMMITS (last 20) ===
+68b38f2 Update weather endpoint to use latitude/longitude params
+27e02af Add resilience to OpenWeatherClient with circuit breaker
+3f06fa5 Add application and infrastructure test projects
+3501ff5 Refine error code for unreadable OpenWeather response
+d4f4768 Decouple API models from OpenWeather response
+63e0486 Refactor to Clean Architecture with API/Application/Infra split
+51902eb Integrate OpenWeatherMap API and refactor endpoints
+fa8d0b0 Add WeatherApp.Api project with minimal API and OpenAPI
+b642364 Add project files.
+ead05a6 Add .gitattributes, .gitignore, and README.md.
+
+=== HIGH-CHURN FILES (last 90 days, top 20) ===
+   4 src/WeatherApp.Api/WeatherApp.Api.http
+   4 WeatherApp.Infrastructure/Weather/OpenWeatherClient.cs
+   4 src/WeatherApp.Api/Program.cs
+   4 src/WeatherApp.Api/WeatherApp.Api.csproj
+   3 src/WeatherApp.Api/appsettings.json
+   3 WeatherApp.slnx
+   2 src/WeatherApp.Api/Endpoints/WeatherEndpoints.cs
+   2 WeatherApp.Infrastructure/DependencyInjection.cs
+   2 WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj
+   2 WeatherApp.Application/Models/MainWeatherInfo.cs
+   2 WeatherApp.Application/Models/SystemDetails.cs
+   2 WeatherApp.Application/Models/WeatherConditionInfo.cs
+   2 WeatherApp.Application/Models/WeatherDto.cs
+   2 WeatherApp.Application/Models/WindDetails.cs
+   2 src/WeatherApp.Api/Extensions/ServiceCollectionExtensions.cs
+   2 src/WeatherApp.Api/Handlers/ApiKeyHandler.cs
+   2 src/WeatherApp.Api/Models/WeatherResult.cs
+   2 src/WeatherApp.Api/Options/WeatherApiCredentialsOptions.cs
+   2 src/WeatherApp.Api/Properties/launchSettings.json
+   2 src/WeatherApp.Api/Services/IWeatherService.cs
+
+=== MONOREPO SIGNALS ===
+No monorepo signals detected.
+
+=== CODE METRICS ===
+Total files scanned: 91
+Total lines of code: 2305
+
+Files by language:
+  Other: 68
+  C#: 22
+  Python: 1
+
+Top 10 largest files:
+.vs\WeatherApp\CopilotIndices\18.9.1311.36310\SemanticSymbols.db-wal: 1086.4KB
+.vs\ProjectEvaluation\weatherapp.projects.v10.bin: 424.2KB
+.vs\CopilotSnapshots\E57B55EB53AB524E8D8567B05946606E\state.mpack: 335.0KB
+.vs\WeatherApp.slnx\DesignTimeBuild\.dtbcache.v2: 327.2KB
+.vs\WeatherApp.slnx\v18\TestStore\0\001.testlog: 299.8KB
+.vs\ProjectEvaluation\weatherapp.strings.v10.bin: 208.1KB
+.vs\WeatherApp.slnx\v18\HierarchyCache.v1.txt: 201.8KB
+.vs\WeatherApp\CopilotIndices\18.9.1306.19527\SemanticSymbols.db: 188.0KB
+.vs\CopilotSnapshots\3979C319E552F744BD5BDB51C48FF569\state.mpack: 87.4KB
+.vs\WeatherApp.slnx\config\applicationhost.config: 83.5KB
+
+=== CI/CD PIPELINES ===
+No CI/CD pipelines detected.
+
+=== CONTAINERS & ORCHESTRATION ===
+No containerization configs detected.
+
+=== SECURITY & COMPLIANCE ===
+No security configs detected.
+
+=== PERFORMANCE & TESTING ===
+No performance testing configs detected.
+
+=== SCAN COMPLETE ===
