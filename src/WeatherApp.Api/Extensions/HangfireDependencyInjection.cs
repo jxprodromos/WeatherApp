@@ -57,19 +57,10 @@ internal static class HangfireDependencyInjection
 
         // Register the recurring weather fetch job
         // Cron: "*/15 * * * *" = every 15 minutes
-        try
-        {
-            RecurringJob.AddOrUpdate<WeatherFetchJob>(
-                "weather-fetch-job",
-                job => job.RunAsync(CancellationToken.None),
-                "*/15 * * * *");
-        }
-        catch (Exception ex)
-        {
-            // Log error but allow app to continue; the job will be registered when the database becomes available
-            var logger = app.Services.GetRequiredService<ILogger<Program>>();
-            logger.LogError(ex, "Failed to register recurring job 'weather-fetch-job'. The job may not execute until the database is available.");
-        }
+        RecurringJob.AddOrUpdate<WeatherFetchJob>(
+            "weather-fetch-job",
+            job => job.RunAsync(CancellationToken.None),
+            "*/15 * * * *");
 
         return app;
     }
